@@ -1,0 +1,45 @@
+.cert-section{
+    margin-left: 23vh;
+    margin-right: 18vh;
+    margin-top: 2vh;
+    border: 2px solid var(--primary);
+    color: white;
+
+}
+
+.cert-section > h1{
+    text-align: center;
+    padding: 20px;
+}
+.c-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.c-left{
+    border: 1px solid green;
+    flex: 1;
+
+}
+.c-right{
+    flex: 2;
+    border: 2px solid yellow;
+    height: fit-content;
+    padding: 5vh;
+}
+.c-icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5vh;
+    width: 80px;
+    background-color: var(--white);
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.c-icons > a >img{
+    width: 60px;
+}

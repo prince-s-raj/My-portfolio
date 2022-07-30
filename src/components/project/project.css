@@ -1,0 +1,38 @@
+.project-section{
+    margin-left: 23vh;
+    margin-right: 18vh;
+    margin-bottom: 5vh;
+}
+.project-section > h1{
+    color: var(--white);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    text-align: center;
+}
+.p-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 5vh;
+    color: var(--white);
+    
+}
+.projects-intro{
+    color: var(--primary);
+    margin-top: 5vh;
+    text-align: center;
+    font-weight: 700;
+}
+@media  screen and (max-width:480px) {
+    .project-section{
+        margin-top: 0px;
+        flex-direction: column;
+        gap:5rem ;
+        
+    }
+    .p-card{
+        flex-direction: column;
+    }
+}

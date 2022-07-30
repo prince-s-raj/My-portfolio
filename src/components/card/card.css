@@ -1,0 +1,31 @@
+.card{
+    width: 15rem;
+    height: 20rem;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--primary);
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.card > img{
+    width: 14.5rem;
+    height: 14rem;
+    border-radius: 20px 20px 0px 0px;
+}
+.card-detail{
+    background-color: rgb(49, 59, 59);
+    height: 6rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.card-detail :nth-child(1){
+    padding: 10px;
+    color:rgb(236, 217, 47);
+    font-weight: bold;
+}

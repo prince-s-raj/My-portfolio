@@ -1,0 +1,50 @@
+.skill-section{
+    margin-left: 23vh;
+    margin-right: 18vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.heading{
+    color:var(--white) ;
+    text-align: center;
+    margin-bottom:5vh;
+    padding: 10px;
+    font-weight: bold;
+   
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.s-card {
+    border-left: 1px solid var(--primary);
+    width: 45vh;
+    
+    margin-bottom: 8vh;
+    box-shadow: 4px 4px 4px rgb(49, 221, 169);
+    border-top-left-radius: 25px;
+
+}
+.header{
+    background-color: var(--primary);
+    text-align: center;
+    color: var(--white);
+    padding: 2vh;
+    margin-bottom: 4vh;
+    border-top-left-radius: 25px;
+}
+progress[value]{
+    width: 200px;
+}
+ul{
+    color: var(--white);
+    list-style-type:disc;
+    margin-bottom: 3vh;
+}
+li{
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+}

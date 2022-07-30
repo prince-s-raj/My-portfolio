@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color:var(--black);
+    margin: 0px auto;
+}
+
+:root{
+    --primary:#0096FF;
+    --secondary:#00D7FF;
+    --black: #000000;
+    --gray: #788097;
+    --card-color: #9c6fe9;
+    --white:#FFFFFF;
+
+}
+.btn{
+    color: white;
+    background-color: var(--primary);
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    padding:10px;
+    margin-right: auto;
+}
+.btn:hover{
+    background-color:white ;
+    cursor: pointer;
+    color: var(--primary);
+    border: 1.5px solid blue;
+}
+
+@media  screen and (max-width:480px) {
+    body{
+        padding: 0.5rem 1rem;
+    }
+}
